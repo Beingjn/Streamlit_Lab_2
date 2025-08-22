@@ -1,17 +1,14 @@
-# Lab 2 — Data Connections (Public Google Sheet or CSV Upload)
-# Scope: demonstrate two data-connection methods without authentication.
-# 1) Public Google Sheet via URL (including a configured, fixed URL)
-# 2) One-off CSV upload
+# Lab 2 — Connect Data 
 
 import streamlit as st
 import pandas as pd
 
 # Page configuration
-st.set_page_config(page_title="Lab 2 — Data Connections", page_icon="2️⃣", layout="wide")
-st.title("Lab 2 — Data Connections")
+st.set_page_config(page_title="Lab 2 — Connect Data ", page_icon="2️⃣", layout="wide")
+st.title("Lab 2 — Connect Data ")
 st.caption("Connect to a publicly accessible Google Sheet (CSV export) or upload a CSV.")
 
-# Overview — common data connection methods in Streamlit
+# Common data connection methods in Streamlit
 st.header("1.Overview of data connection methods")
 st.markdown(
     """
